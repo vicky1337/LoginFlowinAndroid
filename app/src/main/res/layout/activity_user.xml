@@ -10,9 +10,26 @@
         android:id="@+id/user_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="100dp"
         android:text="Welcome User on Second page"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="421dp"
+        android:layout_below="@+id/user_text"
         android:textAlignment="center"
-        android:layout_marginLeft="80dp"/>
+        app:srcCompat="@mipmap/image_demo_round" />
+
+    <Button
+        android:id="@+id/image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="140dp"
+        android:text="Change Image" />
 
 </RelativeLayout>
